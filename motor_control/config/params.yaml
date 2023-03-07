@@ -1,0 +1,6 @@
+mode: ""
+amplitude: 1.0
+freq : 1.0
+sq_up: 1.0
+sq_down: -1.0
+step_value: 1.0
