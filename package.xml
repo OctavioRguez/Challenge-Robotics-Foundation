@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>challenge_robotics_foundation</name>
+  <name>robotics_foundation</name>
   <version>1.0.0</version>
-  <description>The Challenge-Robotics-Foundation package provides interfaces and controllers for managing a motor with encoder in a 
+  <description>The Robotics-Foundation package provides interfaces and controllers for managing a motor with encoder in a 
   robotics context. It includes PID controllers, trajectory generators, and hardware interface adapters.</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->

@@ -1,4 +1,4 @@
-# Challenge-Robotics-Foundation
+# Robotics-Foundation
 
 This project is a ROS (Robot Operating System) melodic package. It is currently at version 1.0.0.
 
@@ -12,16 +12,16 @@ To install this package, clone the repository into your catkin workspace and bui
 
 ```bash
 cd ~/catkin_ws/src
-git clone https://github.com/OctavioRguez/Challenge-Robotics-Foundation.git
+git clone https://github.com/OctavioRguez/Robotics-Foundation.git
 cd ..
-mv ./Challenge-Robotics-Foundation ./challenge_robotics_foundation
+mv ./Robotics-Foundation ./robotics_foundation
 catkin_make
 ```
 
 ## Usage
 To run the package, use the following command:
 ```
-roslaunch challenge_robotics_foundation motor.launch
+roslaunch robotics_foundation motor.launch
 ```
 
 ## License
