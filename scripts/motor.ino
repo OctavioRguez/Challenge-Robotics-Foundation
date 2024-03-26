@@ -25,6 +25,7 @@ int counter = 0;
 //Callback function for the subscription
 void callback(const std_msgs::Float32& msg){
   pwm = msg.data * 100;
+  // Get pwm magnitude and direction
   if (pwm < 0){
     reverse = true;
     pwm *= (-1);
@@ -54,7 +55,6 @@ void setup()
   //Manage ROS node
   nh.initNode();
   nh.subscribe(sub);
-
 }
 
 void loop()

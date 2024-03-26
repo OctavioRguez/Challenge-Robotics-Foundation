@@ -1,13 +1,13 @@
 <?xml version="1.0" ?>
-
 <launch>
-
+    <!-- Parameters file -->
     <rosparam file = "$(find motor_control)/config/params.yaml" command = "load" />
 
+    <!-- ROS Nodes -->
     <node name="input" pkg="motor_control" type="input.py" output="screen" launch-prefix="gnome-terminal --command" />
 
+    <!-- Arduino -->
     <node name="motor" pkg="rosserial_python" type="serial_node.py">
-    <param name="port"	type="string"	value="/dev/ttyUSB0"/>   
+        <param name="port"	type="string"	value="/dev/ttyUSB0"/>   
     </node>
-
 </launch>
