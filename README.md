@@ -13,8 +13,8 @@ To install this package, clone the repository into your catkin workspace and bui
 ```bash
 cd ~/catkin_ws/src
 git clone https://github.com/OctavioRguez/Robotics-Foundation.git
-cd ..
 mv ./Robotics-Foundation ./robotics_foundation
+cd ..
 catkin_make
 ```
 
